@@ -1,148 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-.photo_img {
-    width: 50%;
-    height: 100%;
-}
-
-.container {
-    width: 50%;
-    height: 100%;
-}
-
-.input_container_1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 352px;
-    height: 41px;
-}
-
-.input_container_2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 352px;
-    height: 41px;
-}
-
-input {
-    width: 352px;
-    height: 41px;
-}
-
-.photo_img {
-    width: 600px;
-    height: 720px;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.photo_img {
+  width: 600px;
+  height: 720px;
 }
 
 .container {
-    position: absolute;
-    top: 200px;
-    left: 600px;
-    width: 400px;
-    height: 350px;
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  width: 400px;
+  height: 350px;
 }
-
-.container_2 {
-    display: block;
-    width: 352px;
-    height: 41px;
-    position: absolute;
-    top: 240px;
+.container .input_container_1,
+.container .input_container_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 352px;
+  height: 41px;
 }
-
-.facebook_btn {
-    width: 352px;
-    height: 41px;
-    margin-top: 5px;
-    border-radius: 15px;
-    border: none;
-    background-color: #4267B2;
-    color: white;
+.container input {
+  width: 352px;
+  height: 41px;
 }
-
-.google_btn {
-    width: 352px;
-    height: 41px;
-    margin-top: 5px;
-    border-radius: 15px;
-    border: none;
-    background-color: white;
-    color: black;
-
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 18px;
-    gap: 10px;
-
-    position: absolute;
-    width: 352px;
-    height: 41px;
-
-    border: 1px solid rgba(27, 27, 27, 0.1);
-    border-radius: 14px;
-
+.container .login_btn {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  position: absolute;
+  width: 352px;
+  height: 41px;
+  top: 170px;
+  background: #3DCBB1;
+  border-radius: 14px;
 }
-
-
-.apple_btn {
-    width: 352px;
-    height: 41px;
-    margin-top: 5px;
-    border-radius: 15px;
-    border: none;
-    background-color: black;
-    color: white;
+.container .or_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  position: absolute;
+  top: 210px;
+  margin: auto;
+  justify-content: center;
 }
-
-.or_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 18px;
-    gap: 10px;
-
-    position: absolute;
-    top: 210px;
-    margin: auto;
-    justify-content: center;
-
+.container .container_2 {
+  display: block;
+  width: 352px;
+  height: 41px;
+  position: absolute;
+  top: 240px;
 }
-
-
-.login_btn {
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 18px;
-    gap: 10px;
-
-    position: absolute;
-    width: 352px;
-    height: 41px;
-    top: 170px;
-
-    background: #3DCBB1;
-    border-radius: 14px;
-
+.container .container_2 button {
+  width: 352px;
+  height: 41px;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: none;
 }
+.container .container_2 .facebook_btn {
+  background-color: #4267B2;
+  color: white;
+}
+.container .container_2 .google_btn {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  border: 1px solid rgba(27, 27, 27, 0.1);
+  border-radius: 14px;
+}
+.container .container_2 .apple_btn {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
