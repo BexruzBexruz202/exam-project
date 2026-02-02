@@ -12,29 +12,38 @@
     <div class="image_container">
         <img src="../Photos/big_photo.png" class="photo_img" alt="">
     </div>
+
     <div class="container">
         <img src="../Photos/logo (1).png" alt="">
 
+        <p class="login_text">
+            Join us and get more benefits. We promise to keep your data safely
+        </p>
 
-        <p class="login_text">Join us and get more benefits. We promise to keep your data safely</p>
+        <form id="loginForm">
 
-        <div class="input_container_1">
-            <input type="email" placeholder="Email Address" id="email_input">
-            <img src="../Photos/email_photo.png" alt="">
-        </div>
-        <div class="input_container_2">
-            <input type="password" placeholder="Password" id="password_input">
-            <img src="../Photos/Password_photo.png" alt="">
-        </div>
-        <button class="login_btn"><a href="OnePage.html" class="login_a">Login</a></button>
+            <div class="input_container_1">
+                <input type="email" placeholder="Email Address" id="email_input" required>
+                <img src="../Photos/email_photo.png" alt="">
+            </div>
+
+            <div class="input_container_2">
+                <input type="password" placeholder="Password" id="password_input" required>
+                <img src="../Photos/Password_photo.png" alt="">
+            </div>
+
+            <button type="submit" class="login_btn">Login</button>
+
+        </form>
+
         <p class="or_text">or you can</p>
+
         <div class="container_2">
             <button class="facebook_btn">Continue with Facebook</button>
             <button class="apple_btn">Continue with Apple</button>
             <button class="google_btn">Continue with Google</button>
         </div>
     </div>
-
 
     <script src="../Utils/index.js"></script>
 </body>
